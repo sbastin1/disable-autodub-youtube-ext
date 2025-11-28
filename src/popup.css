@@ -1,0 +1,22 @@
+html, body {
+    width: 300px;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(36, 36, 36);
+}
+
+h1 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}

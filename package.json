@@ -1,0 +1,21 @@
+{
+  "name": "chrome-extension",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc --noEmit",
+    "dev": "vite",
+    "dev:watch": "vite build --watch --mode development",
+    "build": "vite build",
+    "build:chrome": "vite build --mode=chrome",
+    "build:firefox": "vite build --mode=firefox"
+  },
+  "devDependencies": {
+    "@types/webextension-polyfill": "^0.10.0",
+    "typescript": "~5.6.3",
+    "vite": "^5.0.0",
+    "vite-plugin-web-extension": "^4.0.0",
+    "webextension-polyfill": "^0.10.0"
+  }
+}
