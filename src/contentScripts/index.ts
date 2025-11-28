@@ -21,7 +21,7 @@ function onNavigate() {
 
     audioMenuItem.click()
 
-    const menuItems= document.querySelectorAll<HTMLElement>(".ytp-menuitem")
+    const menuItems = document.querySelectorAll<HTMLElement>(".ytp-menuitem")
     menuItems.forEach((item) => {
       const label = item?.firstChild?.textContent
       if (label?.includes("original")) {
@@ -30,7 +30,7 @@ function onNavigate() {
         // Race condition: Youtube needs time to switch tracks
         // TODO: Check if youtube fires any event on audio track switch
         setTimeout(() => {
-          settingsButton.click() 
+          settingsButton.click()
         }, 1000)
       }
     })
