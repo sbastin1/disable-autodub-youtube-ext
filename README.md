@@ -23,7 +23,7 @@
     pnpm i
     ```
     
-3.  **Start Dev Server
+3.  **Start Dev Server**
     
     ```
     pnpm run dev
