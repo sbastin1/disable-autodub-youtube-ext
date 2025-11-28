@@ -1,6 +1,6 @@
-# 🚀 Browser Extensions to disable auto dubbing in youtube
+# Browser Extension to disable auto-dubbing in youtube
 
-## Support for Firefox and Chrome
+### Firefox & Chromium Supported ✅
 
 ## 🛠️ Tech Stack
 
