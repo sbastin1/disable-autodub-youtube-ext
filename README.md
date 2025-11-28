@@ -1,6 +1,6 @@
-# 🚀 Web Extension Instructions
+# 🚀 Browser Extensions to disable auto dubbing in youtube
 
-Project using **Vite**, **TypeScript**, and **Vite Web Extension Plugin**.
+## Support for Firefox and Chrome
 
 ## 🛠️ Tech Stack
 
