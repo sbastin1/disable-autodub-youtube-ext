@@ -36,22 +36,27 @@
 
 Build commands generate output into the **`dist`** folder.
 
-1.  **Chrome Build** 🎨
+### 1. Build the Project
+
+-  **Chromium Build** 🎨
     
     ```
     pnpm build:chrome
     ```
     
-2.  **Firefox Build** 🦊
+-  **Firefox Build** 🦊
     
     ```
     pnpm build:firefox
     ```
-    
 
-## 🔌 Load Extension for Local Development
+- **Zip the `dist` folder if you wish to load the addon on firefox or deploy it**
 
-Use the **`dist`** folder created by `pnpm run dev`.
+    ```
+    zip -r extension.zip dist/
+    ```
+
+## 🔌 Load Extension
 
 ### **Google Chrome / Chromium**
 
@@ -61,7 +66,7 @@ Use the **`dist`** folder created by `pnpm run dev`.
     
 3.  Click **"Load Unpacked"**.
     
-4.  Select the **`dist`** folder.
+4.  Select the generated **`dist`** folder.
     
 
 ### **Mozilla Firefox**
@@ -70,13 +75,13 @@ Use the **`dist`** folder created by `pnpm run dev`.
     
 2.  Click **"Load Temporary Add-on..."**.
     
-3.  Select the **`dist`** folder.
+3.  Select the **`extension.zip`** file.
+
+#### OR
+
+1.  Go to: ➡️ `about:addons`
     
-
-## 💿 Final Installation
-
-1.  **Run Build:** `pnpm build:chrome` or `pnpm build:firefox`.
+2.  Click **"Install Add-on from file"**.
     
-2.  **Zip `dist`:** Zip the `dist` folder. **Contents must be at the root of the ZIP.**
+3.  Select the **`extension.zip`** file.
 
-3. Add to extensions
